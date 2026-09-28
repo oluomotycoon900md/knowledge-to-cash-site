@@ -15,7 +15,7 @@ export default function Header() {
             </Link>
           </nav>
           <Link
-            href="/review"
+            href={siteConfig.affiliateLink} target="_blank" rel="noopener noreferrer sponsored"
             className="rounded-full bg-accent px-4 py-2 text-sm font-semibold text-ink hover:opacity-90"
           >
             {siteConfig.ctaLabel}
@@ -26,7 +26,7 @@ export default function Header() {
       {/* Mobile-only sticky bottom CTA, so it never blocks the header or content */}
       <div className="fixed inset-x-0 bottom-0 z-50 border-t border-black/10 bg-white p-3 md:hidden">
         <Link
-          href="/review"
+          href={siteConfig.affiliateLink} target="_blank" rel="noopener noreferrer sponsored"
           className="block w-full rounded-full bg-accent py-3 text-center font-semibold text-ink"
         >
           {siteConfig.ctaLabel}

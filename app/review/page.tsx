@@ -42,7 +42,7 @@ const faqSchema = {
 function CtaButton({ label }: { label: string }) {
   return (
     <a
-      href={siteConfig.selarLink}
+      href={siteConfig.affiliateLink}
       target="_blank"
       rel="noopener noreferrer sponsored"
       className="inline-block rounded-full bg-accent px-6 py-3 font-semibold text-ink hover:opacity-90"

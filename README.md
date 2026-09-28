@@ -32,7 +32,7 @@ A fast, mobile-first affiliate content site: Next.js (App Router) + TypeScript +
 
 ## Updating your affiliate link, site name or CTA text
 
-Everything lives in one file: `lib/config.ts`. Change `selarLink`, `name`, `description`, `url` or `ctaLabel` there and it updates across the whole site.
+Everything lives in one file: `lib/config.ts`. Change `affiliateLink`, `name`, `description`, `url` or `ctaLabel` there and it updates across the whole site.
 
 ## Running it in Termux
 
@@ -71,7 +71,7 @@ npm run build
 
 ## Before you launch
 
-- [ ] Replace `selarLink` and `url` in `lib/config.ts`
+- [ ] Replace `affiliateLink` and `url` in `lib/config.ts`
 - [ ] Replace the "Real results" placeholder on `/review` with your own testimonials or screenshots
 - [ ] Replace the "Bonus" placeholder on `/review` with your actual bonus
 - [ ] Swap in your own blog posts, or edit the 3 samples in `content/blog/`
