@@ -5,4 +5,5 @@ export const siteConfig = {
   url: "https://yourdomain.com",
   selarLink: "https://selar.co/YOUR-AFFILIATE-LINK",
   ctaLabel: "Get tool",
+  email: "oluomotycoon900md@gmail.com",
 };

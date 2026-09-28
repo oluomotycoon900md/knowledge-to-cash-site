@@ -8,6 +8,7 @@ export default function Footer() {
         <p>
           © {new Date().getFullYear()} {siteConfig.name}
         </p>
+        <a href={`mailto:${siteConfig.email}`} className="hover:opacity-70">{siteConfig.email}</a>
         <nav className="flex gap-6">
           <Link href="/" className="hover:opacity-70">
             Home
