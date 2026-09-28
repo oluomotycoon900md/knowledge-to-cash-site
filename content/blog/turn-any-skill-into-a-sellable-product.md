@@ -22,6 +22,6 @@ Beginners overwhelm buyers with options. One product, one price, one clear promi
 
 A problem post ("why most people get this wrong"), a proof post ("what changed when I did this"), and an offer post ("here's how to get it") is enough content to start selling. You can expand later.
 
-## Step 5: Use a system so you're not rebuilding this every month
+## Step 5: Use a plan so you're not guessing every week
 
-This is the part that burns people out — recreating "what to post" from scratch every week. [The tool I use](/review) turns steps 1 to 4 into a repeatable weekly plan, so packaging your next product takes an afternoon, not a month.
+This is the part that burns people out: working out what to sell, what to post and when, from scratch. [The Monetize Your Knowledge Tool](/review) does steps 1 to 4 for you. Answer a few questions and it builds your #1 monetizable idea, a launch roadmap, a 30-day content calendar and a product description written for your page, then gives you a 7-day launch sprint built to get you live fast.

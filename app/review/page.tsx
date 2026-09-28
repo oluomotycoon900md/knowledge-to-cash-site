@@ -4,25 +4,29 @@ import { siteConfig } from "@/lib/config";
 export const metadata: Metadata = {
   title: "Monetize Your Knowledge Tool: an honest review",
   description:
-    "An honest look at the tool that helps Nigerians turn a skill into a sellable product — what it does, who it's for, and how to get it.",
+    "An honest review of the Monetize Your Knowledge Tool: what you get, who it's for, and what it costs (₦10,000, paid once).",
 };
 
 const faqs = [
   {
-    q: "Do I need money to start?",
-    a: "No. The tool is built for people with 0 to 150k a month who want to start with what they already know, not with capital.",
+    q: "How much does it cost?",
+    a: "₦10,000, paid once. There is no subscription, and your payment covers 2 personalized plans, so you can use it twice.",
   },
   {
-    q: "I don't think I have a \u201csellable\u201d skill — will this still work for me?",
-    a: "Most people already have something sellable — a skill, a hobby, work experience. The tool walks you through finding it and packaging it, step by step.",
+    q: "I don't think I have a \u201csellable\u201d skill. Will this still work for me?",
+    a: "Yes. You tell the tool about your skills, background and what you enjoy doing, and it builds your #1 monetizable idea from what you already have.",
   },
   {
-    q: "How much time does it take per week?",
-    a: "Most users spend a few hours a week following the step-by-step content plan — it's built to fit around school, NYSC or a 9-5.",
+    q: "How long does it take?",
+    a: "Your personalized plan is ready in under 10 minutes. The 7-day launch sprint then breaks your launch into daily tasks, each with a time estimate, so you can plan around school, NYSC or work.",
   },
   {
     q: "Is this only for tech people or content creators?",
-    a: "No. Tailors, hairdressers, makeup artists, tutors and small business owners can all use it to package what they already do into a product.",
+    a: "No. Anyone with a skill, a trade or real knowledge to package can use it, from students and tutors to stylists, freelancers and small business owners.",
+  },
+  {
+    q: "Is payment secure?",
+    a: "Payments are processed securely through Paystack.",
   },
 ];
 
@@ -59,38 +63,69 @@ export default function ReviewPage() {
         Monetize Your Knowledge Tool: an honest review
       </h1>
       <p className="mb-8 text-black/70">
-        You know tailoring, makeup, teaching or another skill — but have no
-        idea what to actually sell online, or how to package it. Here&apos;s
-        the tool I use to fix that, and my honest take on it.
+        You have skills, knowledge or experience that people would pay for, but
+        you&apos;re stuck on the question everyone asks first: what do I
+        actually sell? Here&apos;s the tool built to answer it, and my honest
+        take on it.
       </p>
 
       <div className="mb-10">
         <CtaButton label="Get the tool" />
       </div>
 
-      <h2 className="mb-3 mt-10 text-xl font-bold">What the tool does</h2>
-      <p className="text-black/80">
-        It&apos;s a step-by-step digital framework that turns what you already
-        know into a sellable product — telling you exactly what to sell, how
-        to package it, and what content to post to sell it, without needing
-        capital or a job offer first.
+      <h2 className="mb-3 mt-10 text-xl font-bold">What you get</h2>
+      <p className="mb-3 text-black/80">
+        You answer a few questions, and in under 10 minutes the tool builds a
+        personalized plan around you:
       </p>
+      <ul className="list-disc space-y-1 pl-5 text-black/80">
+        <li>Your #1 monetizable idea, specific to you</li>
+        <li>A full launch roadmap, ready to execute</li>
+        <li>A 30-day content calendar, mapped out and ready to post</li>
+        <li>A product description written for your page</li>
+        <li>A 7-day launch sprint with daily tasks</li>
+      </ul>
+
+      <h2 className="mb-3 mt-10 text-xl font-bold">How it works</h2>
+      <ol className="list-decimal space-y-2 pl-5 text-black/80">
+        <li>
+          <strong>Get access.</strong> Create your account and tell the tool
+          about your skills, background and what you enjoy doing.
+        </li>
+        <li>
+          <strong>Get your plan.</strong> Your personalized plan is generated,
+          with your idea, roadmap, content and copy.
+        </li>
+        <li>
+          <strong>Launch.</strong> Follow the 7-day sprint, post your content
+          and go live.
+        </li>
+      </ol>
 
       <h2 className="mb-3 mt-10 text-xl font-bold">Who it&apos;s for</h2>
       <ul className="list-disc space-y-1 pl-5 text-black/80">
-        <li>Students and NYSC members with little to no capital</li>
-        <li>9-5 earners (₦0–₦150k a month) looking for a second income</li>
         <li>
-          Tailors, hairdressers, makeup artists and tutors who have a skill
-          but no idea how to package it
+          Students and fresh graduates, including NYSC members, who want to
+          start earning early
         </li>
-        <li>Aspiring content creators who want to sell, not just post</li>
+        <li>
+          Working professionals who want a second source of income beyond a
+          salary
+        </li>
+        <li>
+          Skilled people and small business owners who have something valuable
+          to offer but haven&apos;t packaged it into a product yet
+        </li>
+        <li>
+          Anyone building an audience who wants to move from posting to
+          actually selling
+        </li>
       </ul>
 
       <h2 className="mb-3 mt-10 text-xl font-bold">Real results</h2>
       <p className="text-black/80">
         Add real screenshots or quotes from people who&apos;ve used the tool
-        here — specific numbers and results build far more trust than general
+        here. Specific numbers and results build far more trust than general
         claims.{" "}
         <span className="text-black/40">
           (Replace this paragraph with your own verified testimonials.)
@@ -106,8 +141,15 @@ export default function ReviewPage() {
         </span>
       </p>
 
+      <h2 className="mb-3 mt-10 text-xl font-bold">What it costs</h2>
+      <p className="text-black/80">
+        ₦10,000, paid once, with no subscription. Your payment covers 2
+        personalized plans, so you can use it twice. Payment is processed
+        securely through Paystack.
+      </p>
+
       <div className="my-10">
-        <CtaButton label="Get instant access" />
+        <CtaButton label="Get your plan" />
       </div>
 
       <h2 className="mb-4 mt-10 text-xl font-bold">FAQ</h2>

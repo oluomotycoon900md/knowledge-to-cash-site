@@ -30,4 +30,4 @@ Fashion combinations, budgeting on a small allowance, growing a small Instagram 
 
 ## The real blocker isn't the skill
 
-It's turning any of the five above into something with a clear price, a simple package, and content that tells people it exists. That's exactly the part [the tool I use](/review) is built to handle — it tells you what to sell, how to package it, and what to post, so you're not guessing.
+It's turning any of the five above into something with a clear price, a simple package, and content that tells people it exists. The ideas above cost nothing to start. If you'd rather skip the guesswork, [the Monetize Your Knowledge Tool](/review) builds a personalized plan for you in under 10 minutes: your #1 monetizable idea, a launch roadmap, a 30-day content calendar and a 7-day launch sprint, for a one-time ₦10,000.

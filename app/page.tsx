@@ -2,27 +2,31 @@ import Link from "next/link";
 import { getAllPosts } from "@/lib/posts";
 import BlogCard from "@/components/BlogCard";
 
+// The guide the hero button opens. Change this if you rename or replace it.
+const PILLAR_SLUG = "what-to-sell-online-as-a-student-in-nigeria";
+
 export default function HomePage() {
   const posts = getAllPosts().slice(0, 3);
-  const pillarSlug = posts[0]?.slug ?? "";
 
   return (
     <>
       <section className="mx-auto max-w-2xl px-4 pb-10 pt-14 text-center">
         <h1 className="text-3xl font-extrabold leading-tight tracking-tight md:text-5xl">
-          Don&apos;t know what to sell online? Start here for free.
+          Don&apos;t know what to sell online? Get a clear answer in under 10
+          minutes.
         </h1>
         <p className="mx-auto mt-5 max-w-xl text-black/70">
-          No job. No capital. Just packaging what you already know into
-          something people pay for — built for Nigerian students, NYSC
-          members and 9-5 earners.
+          Stop guessing. Turn what you already know into a product people will
+          pay for, with a personalized plan, a launch roadmap and 30 days of
+          content, built for Nigerians who are ready to start earning from
+          their knowledge.
         </p>
         <div className="mt-8 flex justify-center">
           <Link
-            href={pillarSlug ? `/blog/${pillarSlug}` : "/blog"}
+            href={`/blog/${PILLAR_SLUG}`}
             className="rounded-full bg-ink px-6 py-3 font-semibold text-white hover:opacity-90"
           >
-            Start here - free guide
+            Read the starter guide
           </Link>
         </div>
       </section>
@@ -35,7 +39,7 @@ export default function HomePage() {
           ))}
           {posts.length === 0 && (
             <p className="text-black/60">
-              No posts yet — add a markdown file to content/blog/.
+              No posts yet. Add a markdown file to content/blog/.
             </p>
           )}
         </div>
@@ -45,11 +49,11 @@ export default function HomePage() {
         <div className="flex flex-col items-center justify-between gap-6 rounded-2xl bg-ink p-8 text-white md:flex-row md:p-10">
           <div>
             <h2 className="text-xl font-bold">
-              The tool I use to turn a skill into a sellable product
+              The tool that turns what you know into a sellable product
             </h2>
             <p className="mt-2 text-white/70">
-              My honest, full review — what it does, who it&apos;s for, and
-              how to get started.
+              My honest, full review: what you get, who it&apos;s for and what
+              it costs.
             </p>
           </div>
           <Link
