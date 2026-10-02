@@ -63,10 +63,10 @@ export default function ReviewPage() {
         Monetize Your Knowledge Tool: an honest review
       </h1>
       <p className="mb-8 text-black/70">
-        You have skills, knowledge or experience that people would pay for, but
-        you&apos;re stuck on the question everyone asks first: what do I
-        actually sell? Here&apos;s the tool built to answer it, and my honest
-        take on it.
+        You have skills, knowledge or experience that people would pay for,
+        but you&apos;re stuck on what to actually sell, how to sell it, or why
+        your sales aren&apos;t coming in. Here&apos;s the tool built to help
+        with all three, and my honest take on it.
       </p>
 
       <div className="mb-10">
@@ -113,8 +113,16 @@ export default function ReviewPage() {
           salary
         </li>
         <li>
-          Skilled people and small business owners who have something valuable
-          to offer but haven&apos;t packaged it into a product yet
+          Skilled people and small business owners who have valuable knowledge
+          but don&apos;t know how to package or sell it
+        </li>
+        <li>
+          Online sellers who already run a business but are struggling with
+          poor or inconsistent sales
+        </li>
+        <li>
+          Anyone with a digital product who isn&apos;t sure how to market or
+          sell it
         </li>
         <li>
           Anyone building an audience who wants to move from posting to
